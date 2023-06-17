@@ -1,0 +1,197 @@
+main {
+    padding-top: 150px;
+    h1 {
+        color: #ffffff;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 86px;
+        text-align: center;
+    }
+    h2 {
+        width: 500px;
+        top: 891px;
+        left: 153px;
+        color: #ffffff;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+        font-size: 50px;
+    }
+    p {
+        display: flex;
+        width: 500px;
+        height: 84px;
+        top: 1051px;
+        left: 153px;
+        color: #a8a8a8;
+        font: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-size: 15px;
+        margin-bottom: 70px;
+    }
+    .btn-center {
+        display: flex;
+        justify-content: center;
+        .btn {
+            display: inline-block;
+            height: 65px;
+            width: 242px;
+            color: #e0d4ce;
+            text-align: center;
+            border-radius: 10px;
+            line-height: 38px;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            background: #d37e39;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        .btn:hover {
+            background: #8488f8;
+
+            text-decoration: none;
+        }
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        img {
+            &:first-child {
+                margin-right: 50px;
+            }
+        }
+    }
+    .column-1 {
+        // flex: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+        min-width: 1px;
+        max-width: 100%;
+        margin: 20px;
+        align-items: center;
+    }
+    .column-2 {
+        padding-left: 15px;
+        padding-right: 15px;
+        min-width: 1px;
+        max-width: 50%;
+        img {
+            object-fit: cover;
+        }
+    }
+    .btn1 {
+        display: inline-block;
+        width: 242px;
+        margin-left: 100px;
+        color: #e0d4ce;
+        text-align: center;
+        border-radius: 10px;
+        line-height: 38px;
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: #b87430;
+        cursor: pointer;
+        transition: 0.5s;
+        font-size: 10px;
+    }
+    .btn1:hover {
+        background: #8488f8;
+
+        text-decoration: none;
+    }
+    section ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 50px;
+        // width: 300px;
+    }
+
+    .wrapper {
+        width: "850";
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .wrapper li img {
+        margin: 10px;
+    }
+    .wrapper li img {
+        border-radius: 15px;
+    }
+    .btn-2:hover {
+        background: #8488f8;
+
+        text-decoration: none;
+    }
+    h5 {
+        top: 891px;
+        left: 153px;
+        color: #ffffff;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-size: 50px;
+        text-align: center;
+    }
+    .testimonial-author {
+        display: block;
+    }
+    .testimonial-body {
+        margin: 20px;
+    }
+    .testimonial-body p {
+        margin-top: 0;
+        text-align: justify;
+        margin-bottom: 400px;
+    }
+    .btn:hover {
+        background: #8488f8;
+
+        text-decoration: none;
+    }
+}
+.portfolio h3 {
+    display: block;
+
+    margin-top: 200px;
+    color: #ffffff;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 86px;
+    text-align: center;
+}
+.btn-center {
+    .btn-2 {
+        display: inline-block;
+        height: 65px;
+        width: 242px;
+
+        margin-bottom: 30px;
+        top: 200px;
+        bottom: 200px;
+        color: #e0d4ce;
+        text-align: center;
+        border-radius: 20px;
+        line-height: 38px;
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: #2a29294b;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+}
